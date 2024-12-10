@@ -453,55 +453,57 @@ main h2 {
     margin-top: 10px;
 }
 .container_atendimento {
+    background-color: #ffffff;
+    width: 90rem; 
+    height: 80vh;
+    }
 
-}
-.galeria{
-   border: solid  #0017E9;
-   width: 45%;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-}
-.figs-container {
+  .figs-container{
+    h1 , h2 {
+       text-align: left;
+       margin-left: 95px;
+       margin-top: 0px;
+      
+    }
+  }
+  
+  .container-figure-form {
     display: flex;
-    flex-direction: column;
-background-color: #ff0000;
-    padding: 20px;
-}
-
-.figs-container h1 {
-    font-weight: 500;
-    font-size: 1.25rem;
-    font-family: "Oswald", sans-serif;
-    color: #0017E9;
-}
-
-.figs-container h2 {
+    justify-content: space-around;
+  }
+  
+  .galeria {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  figcaption {
     font-weight: 500;
     font-size: 1rem;
     font-family: "Oswald", sans-serif;
-    color: #000;
-}
-.figs-container figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    text-align: center;
-}
-.figs-container img {
+    color: #000000;
+  }
+  
+  form {
     width: 40%;
-}
-.form-container {
-    max-width: 400px; 
-    flex: 1; 
-}
-
-.form-container form {
     display: flex;
-    flex-direction: column; 
-    gap: 10px;
-    margin: 30px;
-}
+    margin-top: -90px;
+    div {
+        display: flex;
+      flex-direction: column;
+      font-weight: 300;
+      font-size: 1rem;
+      font-family: "Oswald", sans-serif;
+      color: #000000; 
+      
+    }
+  }
+  .form-container{
+    h1 , h2 {
+        text-align: left;
+    }
+  }
 
 .form-container button {
     background-color: #0016DF;
@@ -510,10 +512,21 @@ background-color: #ff0000;
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Oswald", sans-serif;
+    
 }
 
 .form-container button:hover {
     background-color: #0056b3;
+}
+footer{
+    font-weight: 700;
+    font-size: 0.87rem;
+    font-family: "Oswald", sans-serif;
+    color: #000000;
 }
 
 /* Tablets */
